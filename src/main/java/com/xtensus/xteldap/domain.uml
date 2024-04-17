@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/rajab/Desktop/PFEWorkplace/pfeGDCC/src/main/java/com/xtensus/xteldap/domain</OriginalElement>
+  <nodes>
+    <node x="589.8490760530069" y="631.773349910382">com.xtensus.xteldap.domain.Entite</node>
+    <node x="3026.8026039923993" y="2594.323973934537">com.xtensus.xteldap.domain.CriterescahierclausesadministrativestypeId</node>
+    <node x="-7.826220101822656" y="-13.508653189866664">com.xtensus.xteldap.domain.Soumissiondepouillementadministratifdetail</node>
+    <node x="3227.528265792359" y="3334.8245166333113">com.xtensus.xteldap.domain.Soumission</node>
+    <node x="-79.09493978695798" y="1074.0283447922914">com.xtensus.xteldap.domain.Criteres</node>
+    <node x="3559.2816581631496" y="3017.278590024414">com.xtensus.xteldap.domain.AbstractAuditingEntity</node>
+    <node x="422.22823228924517" y="849.1646624511329">com.xtensus.xteldap.domain.SoumissionDepouillementAdministratifDetails</node>
+    <node x="3032.6906352602186" y="2766.2515171601763">com.xtensus.xteldap.domain.Criterescahierclausesadministrativestype</node>
+    <node x="623.1118551850127" y="1183.426450550252">com.xtensus.xteldap.domain.Intervalles</node>
+    <node x="944.997160233167" y="987.9935532515217">com.xtensus.xteldap.domain.Criterescategoriesprojet</node>
+    <node x="1353.1051388373253" y="779.0157428897342">com.xtensus.xteldap.domain.SoumissionDepouillementTechnique</node>
+    <node x="1581.9958184008165" y="1607.8363134137653">com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques</node>
+    <node x="414.57864094252136" y="2035.1662242140544">com.xtensus.xteldap.domain.Typecahiercharges</node>
+    <node x="2777.789882898792" y="776.611304561233">com.xtensus.xteldap.domain.CriterescategoriesprojettypeId</node>
+    <node x="-56.133796140754214" y="592.6594040285534">com.xtensus.xteldap.domain.Criterescahierclausesadministratives</node>
+    <node x="3679.015800403531" y="3486.6424887048743">com.xtensus.xteldap.domain.File</node>
+    <node x="2397.2798114658904" y="2450.2053767825155">com.xtensus.xteldap.domain.CriterescahierclausesfinancierestechniquestypeId</node>
+    <node x="1687.189950000538" y="1022.8659876586651">com.xtensus.xteldap.domain.Operateurs</node>
+    <node x="1581.2495507139024" y="1350.4797706041659">com.xtensus.xteldap.domain.CriterescahierclausesfinancierestechniquesId</node>
+    <node x="3877.484938509738" y="2892.710185320052">com.xtensus.xteldap.domain.Soumissionnaire</node>
+    <node x="1773.303216237012" y="2575.934503777636">com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype</node>
+    <node x="1025.451254828097" y="1477.396832319892">com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques</node>
+    <node x="2283.540616523265" y="2942.55983642977">com.xtensus.xteldap.domain.Criterestype</node>
+    <node x="1023.9046990920583" y="2315.1278817326856">com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype</node>
+    <node x="1100.675989375937" y="1947.0539987631441">com.xtensus.xteldap.domain.Cahierclausesadministratives</node>
+    <node x="1364.374188639985" y="1123.6673257623825">com.xtensus.xteldap.domain.Naturecritere</node>
+    <node x="4317.063385369938" y="3193.0652134589013">com.xtensus.xteldap.domain.Cahierchargestype</node>
+    <node x="3641.703676419336" y="3710.924575321798">com.xtensus.xteldap.domain.User</node>
+    <node x="988.8787682886255" y="697.725091270898">com.xtensus.xteldap.domain.CriterescategoriesprojetId</node>
+    <node x="4219.058640066699" y="3545.913828333646">com.xtensus.xteldap.domain.AppelOffre</node>
+    <node x="2359.563736722972" y="893.8520633537964">com.xtensus.xteldap.domain.SoumissionDepouillementAdministratif</node>
+    <node x="1957.7894256122258" y="703.5537164712488">com.xtensus.xteldap.domain.Categoriesprojet</node>
+    <node x="3902.967233592957" y="3563.514370434396">com.xtensus.xteldap.domain.Authority</node>
+    <node x="3122.308607778783" y="1029.5607642967834">com.xtensus.xteldap.domain.SoumissionDepouillementTechniqueDetails</node>
+    <node x="1785.8038848203757" y="2155.064121088227">com.xtensus.xteldap.domain.Intervallestype</node>
+    <node x="408.9865581351387" y="1758.5590980449285">com.xtensus.xteldap.domain.Cahiercharges</node>
+    <node x="3559.236082196098" y="2577.2544901572387">com.xtensus.xteldap.domain.Cahierclausesadministrativestype</node>
+    <node x="199.35847986421498" y="421.46269881136607">com.xtensus.xteldap.domain.CriterescahierclausesadministrativesId</node>
+    <node x="2757.0649283261505" y="1148.151311850504">com.xtensus.xteldap.domain.Criterescategoriesprojettype</node>
+    <node x="-217.72928607829772" y="175.28708139609182">com.xtensus.xteldap.domain.Typecritere</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xtensus.xteldap.domain.Naturecritere" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-1.8863998502638424E-4" y="67.49967423761746" />
+      <point x="1484.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterestype" target="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" relationship="TO_MANY">
+      <point x="-253.54061652326482" y="-187.49983642976986" />
+      <point x="2374.5" y="2510.0" />
+      <point x="2048.303" y="2510.0" />
+      <point x="-2.1623701195494505E-4" y="-151.49950377763616" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministratives" target="com.xtensus.xteldap.domain.Typecahiercharges" relationship="TO_ONE">
+      <point x="-14.999989375937048" y="-127.49999876314405" />
+      <point x="1365.176" y="1933.0" />
+      <point x="1729.0" y="1933.0" />
+      <point x="1729.0" y="2291.0" />
+      <point x="689.079" y="2291.0" />
+      <point x="3.5905747859033E-4" y="115.49977578594553" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Typecahiercharges" relationship="TO_ONE">
+      <point x="-15.000082196097992" y="-127.5004901572388" />
+      <point x="3847.236" y="1933.0" />
+      <point x="1729.0" y="1933.0" />
+      <point x="1729.0" y="2291.0" />
+      <point x="689.079" y="2291.0" />
+      <point x="3.5905747859033E-4" y="115.49977578594553" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojettype" target="com.xtensus.xteldap.domain.CriterescategoriesprojettypeId" relationship="TO_ONE">
+      <point x="23.22495457264131" y="-67.5" />
+      <point x="0.0" y="55.499999999999986" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criteres" target="com.xtensus.xteldap.domain.Criterescahierclausesadministratives" relationship="TO_MANY">
+      <point x="14.999939786957981" y="-187.50034479229134" />
+      <point x="256.405" y="829.0" />
+      <point x="167.86599999999999" y="829.0" />
+      <point x="14.999796140754214" y="103.49959597144665" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Soumissionnaire" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="115.75106149026169" y="-295.50018532005197" />
+      <point x="4182.736" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Intervalles" relationship="TO_MANY">
+      <point x="247.499745171903" y="-38.5608323198918" />
+      <point x="2003.75" y="1590.336" />
+      <point x="2003.75" y="1280.0" />
+      <point x="1257.951" y="1280.0" />
+      <point x="1257.951" y="1301.0" />
+      <point x="294.0001448149874" y="2.073549449748043" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Cahierchargestype" relationship="TO_ONE">
+      <point x="3.009079416642635E-4" y="127.50011826731452" />
+      <point x="1368.405" y="4007.425" />
+      <point x="4148.467000000001" y="4007.425" />
+      <point x="4148.467000000001" y="3501.21" />
+      <point x="4279.0" y="3501.21" />
+      <point x="4279.0" y="3308.565" />
+      <point x="-299.50038536993816" y="-2.1345890127122402E-4" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierchargestype" target="com.xtensus.xteldap.domain.AppelOffre" relationship="TO_MANY">
+      <point x="28.995614630061937" y="115.49978654109873" />
+      <point x="4645.559" y="4037.425" />
+      <point x="3624.204" y="4037.425" />
+      <point x="3624.204" y="3681.0" />
+      <point x="4163.467000000001" y="3681.0" />
+      <point x="4163.467000000001" y="3733.414" />
+      <point x="-196.9996400666987" y="1.7166635416288045E-4" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierchargestype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-3.853699381579645E-4" y="-115.50021345890127" />
+      <point x="4616.563" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="164.61236473978124" y="-103.49951716017631" />
+      <point x="3430.303" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criteres" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="143.09493978695798" y="-187.50034479229134" />
+      <point x="384.5" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Soumission" target="com.xtensus.xteldap.domain.Soumissionnaire" relationship="TO_ONE">
+      <point x="195.0" y="-35.18251663331148" />
+      <point x="-189.5" y="250.93181467994782" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Typecahiercharges" target="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" relationship="TO_MANY">
+      <point x="274.5003590574786" y="14.99977578594553" />
+      <point x="1010.0" y="2165.666" />
+      <point x="1010.0" y="1862.059" />
+      <point x="-320.49981840081637" y="114.72268658623466" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Criteres" relationship="TO_ONE">
+      <point x="-247.500254828097" y="-14.999832319891766" />
+      <point x="-111.595" y="1613.897" />
+      <point x="-111.595" y="1030.0" />
+      <point x="241.405" y="1030.0" />
+      <point x="-6.021304201908606E-5" y="-187.50034479229134" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Intervallestype" relationship="TO_MANY">
+      <point x="-15.000216237011955" y="-151.5" />
+      <point x="-73.50088482037563" y="115.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Soumissionnaire" target="com.xtensus.xteldap.domain.Soumission" relationship="TO_MANY">
+      <point x="6.149026194179896E-5" y="295.49981467994803" />
+      <point x="4066.985" y="3524.0" />
+      <point x="3854.5" y="3524.0" />
+      <point x="3854.5" y="3469.142" />
+      <point x="194.9997342076408" y="-5.182516633311479" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.SoumissionDepouillementTechniqueDetails" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="3.922212172255968E-4" y="67.50023570321656" />
+      <point x="3316.309" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.AppelOffre" target="com.xtensus.xteldap.domain.Soumission" relationship="TO_MANY">
+      <point x="-184.0586400666989" y="-187.49982833364584" />
+      <point x="4232.0" y="3524.0" />
+      <point x="3854.5" y="3524.0" />
+      <point x="3854.5" y="3469.142" />
+      <point x="194.9997342076408" y="-5.182516633311479" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Soumission" target="com.xtensus.xteldap.domain.AppelOffre" relationship="TO_MANY">
+      <point x="-2.6579235918688937E-4" y="139.5004833666885" />
+      <point x="3422.528" y="3681.0" />
+      <point x="4163.467000000001" y="3681.0" />
+      <point x="4163.467000000001" y="3733.414" />
+      <point x="-196.9996400666987" y="1.7166635416288045E-4" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojettype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="7.167384956119349E-5" y="67.49968814949597" />
+      <point x="2899.065" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-247.500254828097" y="1.6768010823398072E-4" />
+      <point x="994.0" y="1628.897" />
+      <point x="994.0" y="1453.98" />
+      <point x="1469.874" y="1453.98" />
+      <point x="1469.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojet" target="com.xtensus.xteldap.domain.CriterescategoriesprojetId" relationship="TO_ONE">
+      <point x="42.8816080554584" y="-67.5" />
+      <point x="0.0" y="55.50000000000001" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.CriterescahierclausesadministrativesId" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="9.141520135785015" y="55.50030118863393" />
+      <point x="384.5" y="614.273" />
+      <point x="2292.0" y="614.2729999999999" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.CriterescahierclausesfinancierestechniquesId" relationship="TO_ONE">
+      <point x="247.5" y="-53.5608323198918" />
+      <point x="1783.7495507139024" y="1575.336" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministratives" target="com.xtensus.xteldap.domain.CriterescahierclausesadministrativesId" relationship="TO_ONE">
+      <point x="201.5" y="-103.5" />
+      <point x="-20.9922760049692" y="55.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierchargestype" target="com.xtensus.xteldap.domain.Cahierclausesadministrativestype" relationship="TO_MANY">
+      <point x="-15.000385369938158" y="-115.50021345890127" />
+      <point x="4601.563" y="2559.754" />
+      <point x="3538.0" y="2559.754" />
+      <point x="3538.0" y="2704.754" />
+      <point x="-303.000082196098" y="-4.90157238800748E-4" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Soumission" target="com.xtensus.xteldap.domain.Soumissionnaire" relationship="CREATE">
+      <point x="195.0" y="-20.18251663331148" />
+      <point x="-189.5" y="265.9318146799478" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministratives" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-279.49998937593705" y="1.2368559509923216E-6" />
+      <point x="994.0" y="2074.554" />
+      <point x="994.0" y="1453.98" />
+      <point x="1469.874" y="1453.98" />
+      <point x="1469.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" relationship="TO_ONE">
+      <point x="-247.500254828097" y="15.000167680108234" />
+      <point x="1010.0" y="1643.897" />
+      <point x="1010.0" y="1862.059" />
+      <point x="-320.49981840081637" y="114.72268658623466" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Criterescahierclausesadministrativestype" relationship="TO_MANY">
+      <point x="-7.736082196097868" y="127.4995098427612" />
+      <point x="3854.5" y="2996.0" />
+      <point x="3265.691" y="2996.0" />
+      <point x="3.6473978116191574E-4" y="103.50048283982369" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Cahiercharges" relationship="TO_ONE">
+      <point x="-320.49981840081637" y="56.16368658623469" />
+      <point x="1056.0" y="1803.5" />
+      <point x="1056.0" y="1832.059" />
+      <point x="274.5004418648613" y="-30.000098044928563" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojet" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="128.49983976683302" y="4.4674847828218844E-4" />
+      <point x="1335.605" y="1055.4940000000001" />
+      <point x="1335.605" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministratives" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="208.9997961407542" y="-81.88640402855336" />
+      <point x="2292.0" y="614.2729999999999" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Intervalles" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="294.0001448149874" y="59.05354944974806" />
+      <point x="1257.951" y="1357.98" />
+      <point x="1257.951" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype" relationship="TO_ONE">
+      <point x="-275.00021623701195" y="-14.999503777636164" />
+      <point x="1729.0" y="2712.435" />
+      <point x="1729.0" y="2457.6279999999997" />
+      <point x="344.50030090794166" y="15.00011826731452" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahiercharges" target="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" relationship="TO_MANY">
+      <point x="274.5004418648613" y="29.999901955071437" />
+      <point x="1010.0" y="1892.059" />
+      <point x="1010.0" y="1862.059" />
+      <point x="-320.49981840081637" y="114.72268658623466" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" relationship="TO_MANY">
+      <point x="344.50030090794166" y="-14.99988173268548" />
+      <point x="2055.0" y="2427.6279999999997" />
+      <point x="2055.0" y="2510.0" />
+      <point x="2048.303" y="2510.0" />
+      <point x="-2.1623701195494505E-4" y="-151.49950377763616" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministrativestype" target="com.xtensus.xteldap.domain.CriterescahierclausesadministrativestypeId" relationship="TO_ONE">
+      <point x="-45.888031267819315" y="-103.5" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministratives" target="com.xtensus.xteldap.domain.Criteres" relationship="TO_ONE">
+      <point x="-2.0385924578647519E-4" y="103.49959597144665" />
+      <point x="152.86599999999999" y="1030.0" />
+      <point x="241.405" y="1030.0" />
+      <point x="-6.021304201908606E-5" y="-187.50034479229134" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="14.999917803902008" y="-127.5004901572388" />
+      <point x="3877.236" y="1917.0" />
+      <point x="3087.0" y="1917.0" />
+      <point x="3087.0" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.User" target="com.xtensus.xteldap.domain.Authority" relationship="TO_MANY">
+      <point x="107.0" y="0.0" />
+      <point x="3994.467233592957" y="3850.424575321798" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.AppelOffre" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-116.4956400666988" y="-187.49982833364584" />
+      <point x="4299.563" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.AppelOffre" target="com.xtensus.xteldap.domain.Cahierchargestype" relationship="CREATE">
+      <point x="0.0" y="-187.5" />
+      <point x="-200.50474530323936" y="115.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Soumission" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="93.66273420764082" y="-139.4995166333115" />
+      <point x="3516.191" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.CriterescahierclausesfinancierestechniquestypeId" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="1.8853410983865615E-4" y="-55.50037678251579" />
+      <point x="2616.28" y="1727.5" />
+      <point x="2585.0" y="1727.5" />
+      <point x="2585.0" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Typecahiercharges" target="com.xtensus.xteldap.domain.Typecritere" relationship="TO_ONE">
+      <point x="-274.49964094252135" y="-2.2421405446948484E-4" />
+      <point x="-187.0" y="2150.666" />
+      <point x="-187.0" y="1861.0" />
+      <point x="-206.5" y="1861.0" />
+      <point x="-157.77071392170228" y="91.49991860390816" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Typecritere" target="com.xtensus.xteldap.domain.Typecahiercharges" relationship="TO_MANY">
+      <point x="-47.86571392170228" y="91.49991860390816" />
+      <point x="-96.595" y="2291.0" />
+      <point x="689.079" y="2291.0" />
+      <point x="3.5905747859033E-4" y="115.49977578594553" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-275.00021623701195" y="4.96222363835841E-4" />
+      <point x="994.0" y="2727.435" />
+      <point x="994.0" y="1453.98" />
+      <point x="1469.874" y="1453.98" />
+      <point x="1469.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Typecahiercharges" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="274.5003590574786" y="-2.2421405446948484E-4" />
+      <point x="994.0" y="2150.666" />
+      <point x="994.0" y="1453.98" />
+      <point x="1469.874" y="1453.98" />
+      <point x="1469.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="344.50030090794166" y="1.1826731451947126E-4" />
+      <point x="1744.0" y="2442.6279999999997" />
+      <point x="1744.0" y="1917.0" />
+      <point x="3087.0" y="1917.0" />
+      <point x="3087.0" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Soumissiondepouillementadministratifdetail" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="207.50022010182263" y="-3.468101333510276E-4" />
+      <point x="2292.0" y="41.990999999999985" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Typecahiercharges" relationship="TO_ONE">
+      <point x="-14.999818400816366" y="139.4996865862347" />
+      <point x="1887.496" y="1933.0" />
+      <point x="1729.0" y="1933.0" />
+      <point x="1729.0" y="2291.0" />
+      <point x="689.079" y="2291.0" />
+      <point x="3.5905747859033E-4" y="115.49977578594553" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterestype" target="com.xtensus.xteldap.domain.Criterescategoriesprojettype" relationship="TO_MANY">
+      <point x="241.02438347673524" y="-187.5" />
+      <point x="-29.99992832615044" y="67.50000000000006" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" relationship="TO_MANY">
+      <point x="-320.49981840081637" y="-3.1341376529780973E-4" />
+      <point x="1537.951" y="1747.336" />
+      <point x="1537.951" y="1435.0" />
+      <point x="1272.951" y="1435.0" />
+      <point x="-2.5482809701316E-4" y="-151.49983231989177" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahiercharges" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="274.5004418648613" y="-9.804492856346769E-5" />
+      <point x="994.0" y="1862.059" />
+      <point x="994.0" y="1453.98" />
+      <point x="1469.874" y="1453.98" />
+      <point x="1469.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterestype" target="com.xtensus.xteldap.domain.Typecritere" relationship="TO_ONE">
+      <point x="-344.49961652326465" y="15.000163570230143" />
+      <point x="-187.0" y="3145.06" />
+      <point x="-187.0" y="1861.0" />
+      <point x="-206.5" y="1861.0" />
+      <point x="-157.77071392170228" y="91.49991860390816" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.CriterescahierclausesfinancierestechniquestypeId" relationship="TO_ONE">
+      <point x="274.9999999999998" y="-29.610529843098675" />
+      <point x="2613.041" y="2697.823973934537" />
+      <point x="-3.238811465890194" y="55.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Cahierclausesadministrativestype" relationship="TO_ONE">
+      <point x="233.00036473978116" y="4.828398236895737E-4" />
+      <point x="3538.0" y="2869.752" />
+      <point x="3538.0" y="2704.754" />
+      <point x="-303.000082196098" y="-4.90157238800748E-4" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Intervallestype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="321.00011517962434" y="-1.2108822693335242E-4" />
+      <point x="2585.0" y="2270.5640000000003" />
+      <point x="2585.0" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Cahierchargestype" relationship="TO_ONE">
+      <point x="302.999917803902" y="-4.90157238800748E-4" />
+      <point x="4279.0" y="2704.754" />
+      <point x="4279.0" y="3308.565" />
+      <point x="-299.50038536993816" y="-2.1345890127122402E-4" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterestype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-344.49961652326465" y="1.6357023014279548E-4" />
+      <point x="994.0" y="3130.06" />
+      <point x="994.0" y="1453.98" />
+      <point x="1469.874" y="1453.98" />
+      <point x="1469.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.SoumissionDepouillementTechnique" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-1.3883732526664971E-4" y="-91.49974288973418" />
+      <point x="1592.105" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterestype" target="com.xtensus.xteldap.domain.Criterescahierclausesadministrativestype" relationship="TO_MANY">
+      <point x="344.50038347673535" y="1.6357023014279548E-4" />
+      <point x="3425.0" y="3130.06" />
+      <point x="3425.0" y="2996.0" />
+      <point x="3265.691" y="2996.0" />
+      <point x="3.6473978116191574E-4" y="103.50048283982369" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministratives" target="com.xtensus.xteldap.domain.Cahierclausesadministratives" relationship="TO_ONE">
+      <point x="-209.00020385924577" y="-4.0402855335486265E-4" />
+      <point x="-126.595" y="696.159" />
+      <point x="-126.595" y="1725.0" />
+      <point x="976.0" y="1725.0" />
+      <point x="976.0" y="2012.5" />
+      <point x="-279.49998937593705" y="-62.053998763144136" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministratives" target="com.xtensus.xteldap.domain.Criterescahierclausesadministratives" relationship="TO_MANY">
+      <point x="172.77501062406304" y="-127.49999876314405" />
+      <point x="1552.951" y="1387.98" />
+      <point x="1287.951" y="1387.98" />
+      <point x="1287.951" y="829.0" />
+      <point x="167.86599999999999" y="829.0" />
+      <point x="14.999796140754214" y="103.49959597144665" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Intervalles" target="com.xtensus.xteldap.domain.Operateurs" relationship="TO_ONE">
+      <point x="294.0001448149874" y="18.073549449748043" />
+      <point x="1236.379" y="1317.0" />
+      <point x="1236.379" y="1334.0" />
+      <point x="2018.75" y="1334.0" />
+      <point x="136.06004999946208" y="91.50001234133492" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Criterestype" relationship="TO_ONE">
+      <point x="-232.99963526021884" y="4.828398236895737E-4" />
+      <point x="2951.0" y="2869.752" />
+      <point x="2951.0" y="2727.435" />
+      <point x="2628.041" y="2727.435" />
+      <point x="3.83476735350996E-4" y="-187.49983642976986" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criteres" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="320.49993978695795" y="-95.60234479229138" />
+      <point x="1335.605" y="1165.926" />
+      <point x="1335.605" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Typecahiercharges" relationship="TO_ONE">
+      <point x="3.009079416642635E-4" y="-127.49988173268548" />
+      <point x="1368.405" y="2291.0" />
+      <point x="689.079" y="2291.0" />
+      <point x="3.5905747859033E-4" y="115.49977578594553" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="1.8159918363380712E-4" y="139.4996865862347" />
+      <point x="1902.496" y="1917.0" />
+      <point x="3087.0" y="1917.0" />
+      <point x="3087.0" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.User" target="com.xtensus.xteldap.domain.AbstractAuditingEntity" relationship="GENERALIZATION">
+      <point x="-87.1878760158047" y="-139.5" />
+      <point x="-26.765857759618484" y="79.5" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criteres" target="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" relationship="TO_MANY">
+      <point x="320.49993978695795" y="-3.447922913437651E-4" />
+      <point x="605.612" y="1261.528" />
+      <point x="605.612" y="1435.0" />
+      <point x="1272.951" y="1435.0" />
+      <point x="-2.5482809701316E-4" y="-151.49983231989177" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Categoriesprojet" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-4.256122258539108E-4" y="-67.49971647124873" />
+      <point x="2088.2889999999998" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniques" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="320.50018159918363" y="-3.1341376529780973E-4" />
+      <point x="2292.0" y="1747.336" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.SoumissionDepouillementAdministratifDetails" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-2.322892452184533E-4" y="-67.49966245113293" />
+      <point x="650.228" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.SoumissionDepouillementAdministratif" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-175.4997367229721" y="-6.335379649158313E-5" />
+      <point x="2292.0" y="949.3520000000001" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojettype" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="-14.999928326150439" y="67.49968814949597" />
+      <point x="2884.065" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Typecahiercharges" target="com.xtensus.xteldap.domain.Cahierclausesadministratives" relationship="TO_MANY">
+      <point x="3.5905747859033E-4" y="-115.50022421405447" />
+      <point x="689.079" y="1983.059" />
+      <point x="976.0" y="1983.059" />
+      <point x="976.0" y="2012.5" />
+      <point x="-279.49998937593705" y="-62.053998763144136" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Intervallestype" target="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" relationship="TO_ONE">
+      <point x="1.1517962434481888E-4" y="115.49987891177307" />
+      <point x="2106.804" y="2510.0" />
+      <point x="2048.303" y="2510.0" />
+      <point x="-2.1623701195494505E-4" y="-151.49950377763616" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterestype" target="com.xtensus.xteldap.domain.Naturecritere" relationship="TO_ONE">
+      <point x="-344.49961652326465" y="30.000163570230143" />
+      <point x="157.0" y="3160.06" />
+      <point x="157.0" y="1598.897" />
+      <point x="579.405" y="1598.897" />
+      <point x="579.405" y="1150.926" />
+      <point x="-120.50018863998503" y="-40.24132576238259" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojettype" target="com.xtensus.xteldap.domain.Criterestype" relationship="TO_ONE">
+      <point x="15.000071673849561" y="67.49968814949597" />
+      <point x="2914.065" y="1727.5" />
+      <point x="2951.0" y="1727.5" />
+      <point x="2951.0" y="2727.435" />
+      <point x="2628.041" y="2727.435" />
+      <point x="3.83476735350996E-4" y="-187.49983642976986" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criteres" target="com.xtensus.xteldap.domain.Naturecritere" relationship="TO_ONE">
+      <point x="-6.021304201908606E-5" y="187.49965520770866" />
+      <point x="241.405" y="1598.897" />
+      <point x="579.405" y="1598.897" />
+      <point x="579.405" y="1150.926" />
+      <point x="-120.50018863998503" y="-40.24132576238259" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-344.49969909205834" y="1.1826731451947126E-4" />
+      <point x="994.0" y="2442.6279999999997" />
+      <point x="994.0" y="1453.98" />
+      <point x="1469.874" y="1453.98" />
+      <point x="1469.874" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministrativestype" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-8.219609799198224E-5" y="-127.5004901572388" />
+      <point x="3862.236" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterestype" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="-344.49961652326465" y="-14.999836429769857" />
+      <point x="1744.0" y="3115.06" />
+      <point x="1744.0" y="1917.0" />
+      <point x="3087.0" y="1917.0" />
+      <point x="3087.0" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Operateurs" target="com.xtensus.xteldap.domain.Intervalles" relationship="TO_MANY">
+      <point x="-14.999950000537865" y="91.50001234133492" />
+      <point x="1867.69" y="1280.0" />
+      <point x="1257.951" y="1280.0" />
+      <point x="1257.951" y="1301.0" />
+      <point x="294.0001448149874" y="2.073549449748043" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Intervalles" target="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniques" relationship="TO_ONE">
+      <point x="1.4481498726581776E-4" y="115.49954944974809" />
+      <point x="917.112" y="1435.0" />
+      <point x="1272.951" y="1435.0" />
+      <point x="-2.5482809701316E-4" y="-151.49983231989177" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.CriterescahierclausesfinancierestechniquesId" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="4.4928609759153915E-4" y="-55.499770604165974" />
+      <point x="1783.75" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierchargestype" target="com.xtensus.xteldap.domain.Cahierclausesfinancierestechniquestype" relationship="TO_MANY">
+      <point x="13.995614630061937" y="115.49978654109873" />
+      <point x="4630.559" y="4022.425" />
+      <point x="2621.041" y="4022.425" />
+      <point x="2621.041" y="3342.325" />
+      <point x="1729.0" y="3342.325" />
+      <point x="1729.0" y="2457.6279999999997" />
+      <point x="344.50030090794166" y="15.00011826731452" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.CriterescategoriesprojettypeId" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="1.1710120816132985E-4" y="-55.500304561233065" />
+      <point x="2922.29" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.AppelOffre" target="com.xtensus.xteldap.domain.Cahierchargestype" relationship="TO_ONE">
+      <point x="-167.07364006669923" y="-187.49982833364584" />
+      <point x="4248.985" y="3501.21" />
+      <point x="4279.0" y="3501.21" />
+      <point x="4279.0" y="3308.565" />
+      <point x="-299.50038536993816" y="-2.1345890127122402E-4" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahiercharges" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="274.5004418648613" y="14.999901955071437" />
+      <point x="1512.951" y="1877.059" />
+      <point x="1512.951" y="1917.0" />
+      <point x="3087.0" y="1917.0" />
+      <point x="3087.0" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojet" target="com.xtensus.xteldap.domain.Criteres" relationship="TO_ONE">
+      <point x="-128.5001602331671" y="4.4674847828218844E-4" />
+      <point x="399.5" y="1055.4940000000001" />
+      <point x="399.5" y="1030.0" />
+      <point x="241.405" y="1030.0" />
+      <point x="-6.021304201908606E-5" y="-187.50034479229134" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.CriterescahierclausesadministrativestypeId" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="3.9600760055691353E-4" y="-55.499973934537365" />
+      <point x="3219.803" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Intervallestype" target="com.xtensus.xteldap.domain.Operateurs" relationship="TO_ONE">
+      <point x="200.19611517962426" y="-115.50012108822693" />
+      <point x="2307.0" y="1334.0" />
+      <point x="2018.75" y="1334.0" />
+      <point x="136.06004999946208" y="91.50001234133492" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criteres" target="com.xtensus.xteldap.domain.Criterescategoriesprojet" relationship="TO_MANY">
+      <point x="320.5" y="-180.0" />
+      <point x="-128.5" y="26.034791540769618" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierchargestype" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="14.999614630061842" y="-115.50021345890127" />
+      <point x="4631.563" y="1917.0" />
+      <point x="3087.0" y="1917.0" />
+      <point x="3087.0" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescategoriesprojet" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="-102.11816023316703" y="-67.49955325152172" />
+      <point x="971.379" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministratives" target="com.xtensus.xteldap.domain.Categoriesprojet" relationship="TO_ONE">
+      <point x="1.0624062952047097E-5" y="-127.49999876314405" />
+      <point x="1380.176" y="1917.0" />
+      <point x="3087.0" y="1917.0" />
+      <point x="3087.0" y="1301.0" />
+      <point x="2095.69" y="1301.0" />
+      <point x="7.400574387774213" y="67.50028352875127" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criteres" target="com.xtensus.xteldap.domain.Typecritere" relationship="TO_ONE">
+      <point x="-320.50006021304205" y="-3.447922913437651E-4" />
+      <point x="-187.0" y="1261.528" />
+      <point x="-187.0" y="1861.0" />
+      <point x="-206.5" y="1861.0" />
+      <point x="-157.77071392170228" y="91.49991860390816" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahiercharges" target="com.xtensus.xteldap.domain.Cahierclausesadministratives" relationship="TO_MANY">
+      <point x="274.5004418648613" y="-15.000098044928563" />
+      <point x="976.0" y="1847.059" />
+      <point x="976.0" y="2012.5" />
+      <point x="-279.49998937593705" y="-62.053998763144136" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Operateurs" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="4.999946213501971E-5" y="91.50001234133492" />
+      <point x="1882.69" y="1317.0" />
+      <point x="2292.0" y="1317.0" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Typecritere" target="com.xtensus.xteldap.domain.Criteres" relationship="TO_MANY">
+      <point x="-62.86571392170228" y="91.49991860390816" />
+      <point x="-111.595" y="1030.0" />
+      <point x="241.405" y="1030.0" />
+      <point x="-6.021304201908606E-5" y="-187.50034479229134" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Cahierclausesadministratives" target="com.xtensus.xteldap.domain.Cahiercharges" relationship="TO_ONE">
+      <point x="-279.49998937593705" y="-47.053998763144136" />
+      <point x="1056.0" y="2027.5" />
+      <point x="1056.0" y="1832.059" />
+      <point x="274.5004418648613" y="-30.000098044928563" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Typecritere" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="169.00028607829773" y="-8.139609184354413E-5" />
+      <point x="2292.0" y="266.787" />
+      <point x="2292.0" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.CriterescategoriesprojetId" target="com.xtensus.xteldap.domain.Entite" relationship="GENERALIZATION">
+      <point x="2.3171137445388013E-4" y="-55.50009127089798" />
+      <point x="1116.379" y="679.0" />
+      <point x="636.849" y="679.0" />
+      <point x="-7.605300686464034E-5" y="13.999650089618065" />
+    </edge>
+    <edge source="com.xtensus.xteldap.domain.Criterescahierclausesfinancierestechniquestype" target="com.xtensus.xteldap.domain.Criterestype" relationship="TO_ONE">
+      <point x="274.9997837629878" y="4.96222363835841E-4" />
+      <point x="2628.041" y="2727.435" />
+      <point x="3.83476735350996E-4" y="-187.49983642976986" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="true" x="2340.0" y="2589.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
