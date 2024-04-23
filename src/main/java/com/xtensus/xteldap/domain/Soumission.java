@@ -17,53 +17,51 @@ import org.hibernate.annotations.FetchMode;
 @Table(name = "soumission")
 public class Soumission extends Entite implements Serializable {
 
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = -5301398229272896057L;
-	
-	
-	
-	private Long   soumissionReference ; 
-	private Long   soumissionMoyenneFinanciere ; 
+
+
+
+	private Long   soumissionReference ;
+	private Long   soumissionMoyenneFinanciere ;
 	private Float  soumissionMoyennePonderee ;
 	private String soumissionEtatDepouillementAdministratif ;
 	private String soumissionEtatDepouillementFinanciere ;
-	private String soumissionEtatDepouillementTechnique ; 
+	private String soumissionEtatDepouillementTechnique ;
 	private String soumissionEtatGlobal ;
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 	//relations
 	//private Cahierclausesadministrativestype cahierClausesAdministrativesReference ;
-	//private Cahiercharges cahierChargesReference ; 
+	//private Cahiercharges cahierChargesReference ;
 	private List<AppelOffre> soumissionListeAppelOffreAssociees = new ArrayList<AppelOffre>();
-	
-	
-	
-	
+
+
+
+
 	public void AjouterAppelOffre(AppelOffre a){
 		a.getAppelOffreListeSoumissionsAssocies().add(this);
 		this.soumissionListeAppelOffreAssociees.add(a);
 	}
-	
-	
+
+
 	private Soumissionnaire soumissionnaireReference=new Soumissionnaire() ;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "soumissionReference", unique = true, nullable = false)
@@ -151,16 +149,16 @@ public class Soumission extends Entite implements Serializable {
 	public void setSoumissionEtatGlobal(String soumissionEtatGlobal) {
 		this.soumissionEtatGlobal = soumissionEtatGlobal;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
 
 	@ManyToMany( cascade ={CascadeType.PERSIST, CascadeType.MERGE},
 			fetch = FetchType.EAGER ,mappedBy="appelOffreListeSoumissionsAssocies")
@@ -168,18 +166,18 @@ public class Soumission extends Entite implements Serializable {
 	public List<AppelOffre> getSoumissionListeAppelOffreAssociees() {
 		return soumissionListeAppelOffreAssociees;
 	}
-	
+
 	public void setSoumissionListeAppelOffreAssociees(
 			List<AppelOffre> soumissionListeAppelOffreAssociees) {
 		this.soumissionListeAppelOffreAssociees = soumissionListeAppelOffreAssociees;
 	}
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 	@ManyToOne
 	@JoinColumn( name="soumissionnaireReference", referencedColumnName="soumissionnaireReference" )
 	public Soumissionnaire getSoumissionnaireReference() {
@@ -191,24 +189,24 @@ public class Soumission extends Entite implements Serializable {
 	public void setSoumissionnaireReference(Soumissionnaire soumissionnaireReference) {
 		this.soumissionnaireReference = soumissionnaireReference;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

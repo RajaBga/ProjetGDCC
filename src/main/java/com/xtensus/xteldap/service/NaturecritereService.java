@@ -12,4 +12,5 @@ public interface NaturecritereService {
     Page<Naturecritere> findAll(Pageable pageable);
     Optional<Naturecritere> findOne(Long id);
     void delete(Long id);
+
 }
