@@ -18,6 +18,7 @@ import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import tech.jhipster.config.DefaultProfileUtil;
 import tech.jhipster.config.JHipsterConstants;
 
@@ -25,6 +26,7 @@ import tech.jhipster.config.JHipsterConstants;
 @EnableConfigurationProperties({ LiquibaseProperties.class, ApplicationProperties.class })
 @ComponentScan(basePackages = {"com.xtensus.xteldap.domain", "com.xtensus.xteldap.repository"})
 @EntityScan(basePackages= {"com.xtensus.xteldap.domain"})
+@CrossOrigin(origins = "http://localhost:4200")
 public class PfeGdccApp {
 
     private static final Logger log = LoggerFactory.getLogger(PfeGdccApp.class);

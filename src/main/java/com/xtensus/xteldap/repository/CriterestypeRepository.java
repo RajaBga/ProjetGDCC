@@ -1,5 +1,6 @@
 package com.xtensus.xteldap.repository;
 
+import com.xtensus.xteldap.domain.Naturecritere;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -10,5 +11,5 @@ import java.util.List;
 
 @Repository
 public interface CriterestypeRepository extends JpaRepository<Criterestype,Long>{
-    boolean existsByNaturecritere_Id(Long naturecritereId);
+    boolean existsByNaturecritere(Naturecritere naturecritere);
 }

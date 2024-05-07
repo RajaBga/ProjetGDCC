@@ -6,10 +6,9 @@ import java.util.HashSet;
 import java.util.Set;
 import jakarta.persistence.*;
 
-
 @Entity
 @Table(name = "typecritere")
-public class Typecritere extends Entite implements java.io.Serializable {
+public class Typecritere  implements java.io.Serializable {
 
 	private static final long serialVersionUID = 1838637383989226761L;
 	private Long typeCritereId;
