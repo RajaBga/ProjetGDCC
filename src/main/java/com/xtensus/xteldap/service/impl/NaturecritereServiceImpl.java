@@ -5,6 +5,7 @@ import com.xtensus.xteldap.domain.Naturecritere;
 import com.xtensus.xteldap.repository.CriterestypeRepository;
 import com.xtensus.xteldap.repository.NaturecritereRepository;
 import com.xtensus.xteldap.service.NaturecritereService;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -53,20 +54,27 @@ public class NaturecritereServiceImpl implements NaturecritereService {
 
     @Override
     public void delete(Long id) {
-        // Check if the Naturecritere is used by any Criterestype entities
-        boolean isUsed = criterestypeRepository.existsByNaturecritere_Id(id);
+        // Find the Naturecritere entity by its ID
+        Optional<Naturecritere> optionalNaturecritere = naturecritereRepository.findById(id);
+        if (optionalNaturecritere.isPresent()) {
+            Naturecritere naturecritere = optionalNaturecritere.get();
 
-        if (!isUsed) {
-            // If not used, delete the Naturecritere
-            naturecritereRepository.deleteById(id);
+            // Check if the Naturecritere is used by any Criterestype entities
+            boolean isUsed = criterestypeRepository.existsByNaturecritere(naturecritere);
+
+            if (!isUsed) {
+                // If not used, delete the Naturecritere
+                naturecritereRepository.delete(naturecritere);
+            } else {
+                // If used, you can handle the situation as per your requirement
+                // For example, throw an exception, return an error response, etc.
+                // Here, let's throw an exception
+                throw new IllegalStateException("Cannot delete Naturecritere because it is in use by Criterestype entities.");
+            }
         } else {
-            // If used, you can handle the situation as per your requirement
-            // For example, throw an exception, return an error response, etc.
-            // Here, let's throw an exception // najem nbadelha mba3ed nhot 1 wella 0
-            //System.out.println(1);
-            throw new IllegalStateException("Cannot delete Naturecritere because it is in use by Criterestype entities.");
+            // Handle the case where the Naturecritere with the given ID is not found
+            throw new EntityNotFoundException("Naturecritere with ID " + id + " not found.");
         }
     }
+
 }
-
-

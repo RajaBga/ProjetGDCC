@@ -1,9 +1,10 @@
 package com.xtensus.xteldap.domain;
 
 
-
 import java.util.HashSet;
 import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 import org.hibernate.annotations.Fetch;
@@ -11,7 +12,7 @@ import org.hibernate.annotations.FetchMode;
 
 @Entity
 @Table(name = "typecahiercharges")
-public class Typecahiercharges extends Entite  implements java.io.Serializable {
+public class Typecahiercharges   implements java.io.Serializable {
 
 	private static final long serialVersionUID = 6678940777576782748L;
 	private Long typeCahierChargesId;
@@ -81,11 +82,11 @@ public class Typecahiercharges extends Entite  implements java.io.Serializable {
 		this.typeCahierChargesLibelle = typeCahierChargesLibelle;
 	}
 
-	@OneToMany(fetch = FetchType.EAGER, mappedBy = "typecahiercharges")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "typecahiercharges")
 
-	//Code Jbeli Radhwen : ajout De Fetch:Fetch:subselect : pour pouvoir acc�der a cette liste lors de l'appel
-	//d'un cahier des charges
+
 	@Fetch(value = FetchMode.SUBSELECT)
+    @JsonIgnore
 	public Set<Cahierclausesadministratives> getCahierclausesadministrativeses() {
 		return this.cahierclausesadministrativeses;
 	}
@@ -95,10 +96,9 @@ public class Typecahiercharges extends Entite  implements java.io.Serializable {
 		this.cahierclausesadministrativeses = cahierclausesadministrativeses;
 	}
 
-	@OneToMany(fetch = FetchType.EAGER, mappedBy = "typecahiercharges")
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "typecahiercharges")
 
-	//Code Jbeli Radhwen : ajout De Fetch:Fetch:subselect : pour pouvoir acc�der a cette liste lors de l'appel
-	//d'un cahier des charges
+
 	@Fetch(value = FetchMode.SUBSELECT)
 	public Set<Cahierclausesfinancierestechniques> getCahierclausesfinancierestechniqueses() {
 		return this.cahierclausesfinancierestechniqueses;

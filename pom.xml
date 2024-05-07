@@ -11,7 +11,7 @@
     <description>Description for Pfe GDCC</description>
 
     <properties>
-		
+
         <!--
             Build properties
             The spring-boot version should match the one managed by https://mvnrepository.com/artifact/tech.jhipster/jhipster-dependencies/${jhipster-dependencies.version}
@@ -90,7 +90,12 @@
     <version>2.2</version> <!-- Or any version compatible with your project -->
      </dependency>
 
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
 
 
 <dependency>
@@ -99,7 +104,7 @@
     <version>2.3</version> <!-- Or any version compatible with your project -->
 </dependency>
 <!-- CHANGE IS MADE HERE-->
-      
+
         <dependency>
             <groupId>tech.jhipster</groupId>
             <artifactId>jhipster-framework</artifactId>
@@ -133,7 +138,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
-       
+
         <dependency>
             <!-- Spring Security OAuth 2.0 -->
             <groupId>org.springframework.boot</groupId>
